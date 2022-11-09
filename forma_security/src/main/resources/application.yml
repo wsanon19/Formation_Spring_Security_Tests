@@ -1,0 +1,24 @@
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: info,health,beans,metrics,endpoints,mappings
+    web:
+      exposure:
+        include: health,info,prometheus,metrics
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/securityupdate
+    username: postgres
+    password: Azertyui1*
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate :
+      ddl-auto: create-drop
+      format_sql : true
+
+
+
+
