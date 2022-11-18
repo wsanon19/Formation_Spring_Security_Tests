@@ -100,6 +100,7 @@ public class CommandeServiceImpl implements CommandeService{
     }
 
     @Timed(value = "orderlist.fetching.time", description = "Time taken to fetch all commande")
+    @Counted(value = "orderlist.fetching.count", description="number of fetching all commande")
     public List<Commande> getAll() {
         return commandeRepos.findAll();
     }

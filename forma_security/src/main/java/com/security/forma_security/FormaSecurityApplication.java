@@ -37,12 +37,6 @@ public class FormaSecurityApplication {
 			articleService.create("Shirt","Winter Shirt",25.0);
 			articleService.create("Chicken","Kentucky Fried Chiken",15.0);
 
-
-
-
-
-//
-//
 			userService.saveUser(new AppUser(null,"Wilfried SANON","will","will@gmail.com", "1234",new ArrayList<>()));
 			userService.saveUser(new AppUser(null,"AZAER","test","azaer@gmail.com","1234",new ArrayList<>()));
 			userService.saveUser(new AppUser(null,"SANON","able","Sanon@gmail.com","1234",new ArrayList<>()));
@@ -55,7 +49,6 @@ public class FormaSecurityApplication {
 //			userService.addRoleToUser("well",ERole.ROLE_USER.name());
 		};
 	}
-
 
 	@Bean
 	public CorsFilter corsFilter() {
@@ -74,14 +67,9 @@ public class FormaSecurityApplication {
 		return new CorsFilter(urlBasedCorsConfigurationSource);
 	}
 
-
 	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
-
-
-
-
 
 }
