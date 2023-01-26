@@ -1,0 +1,46 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  margin-top: 4.2%;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-list-item:hover{
+  cursor: pointer;
+  background-color: #A77E7E;
+  border-radius: 0.625em;
+}
+
+.mat-toolbar .mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-chocolat {
+  background-color: #A77E7E;
+}
+
+#list {
+  flex: 1;
+  color: #FAFAFA;
+  text-decoration:none;
+}
+
+#titre {
+  color: #FAFAFA;
+  text-decoration:none;
+}
+
+.example-spacer {
+  flex: 1;
+}
+
+
+

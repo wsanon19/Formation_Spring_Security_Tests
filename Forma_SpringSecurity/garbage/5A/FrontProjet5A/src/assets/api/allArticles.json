@@ -1,0 +1,262 @@
+[
+    {
+        "id": 13, 
+        "name": "equipement de bodyBoard", 
+        "image": "assets/bodyBoard.jfif", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 3, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 14, 
+        "name": "equipement pour bain", 
+        "image": "assets/douche.jfif", 
+        "description": "sans poche", 
+        "prix": 28, 
+        "taille": "L", 
+        "note": 5, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 15, 
+        "name": "pour une belle originale", 
+        "image": "assets/fleurs.jfif", 
+        "description": "poche", 
+        "prix": 30, 
+        "taille": "S", 
+        "note": 3, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 16, 
+        "name": "vos rideaux à -50%", 
+        "image": "assets/rideau.jfif", 
+        "description": "sans poche", 
+        "prix": 25, 
+        "taille": "XL", 
+        "note": 4, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 17, 
+        "name": "sac à main", 
+        "image": "assets/sac.jfif", 
+        "description": "sans poche", 
+        "prix": 26, 
+        "taille": "S", 
+        "note": 5, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 18, 
+        "name": "foulard avec motifs", 
+        "image": "assets/foulard.jfif", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 5, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 1, 
+        "name": "Jean délavé", 
+        "image": "assets/jeanDelave.webp",
+        "description": "Jean délavé avec poche",
+        "prix": 27, 
+        "taille": "M", 
+        "note": 4, 
+        "quantite": 10 
+    },
+    {   
+        "id": 2, 
+        "name": "Jean ample", 
+        "image": "assets/jeanAmple.webp", 
+        "description": "sans poche", 
+        "prix": 28, 
+        "taille": "L", 
+        "note": 3, 
+        "quantite": 10 
+    },
+    {
+        "id":3, 
+        "name":"Jean Homme", 
+        "image":"assets/jeanHommeSkinny.webp", 
+        "description": "poche", 
+        "prix": 30, 
+        "taille": "S", 
+        "note": 3,  
+        "quantite": 10 
+    },
+    {
+        "id": 4, 
+        "name": "Jean moulant", 
+        "image": "assets/jeanAbloc.webp", 
+        "description": "sans poche", 
+        "prix": 25, 
+        "taille": "XL", 
+        "note": 3, 
+        "quantite": 10 
+    },
+    {
+        "id": 5, 
+        "name": "Jean Bersha", 
+        "image": "assets/jeanBersha.webp", 
+        "description": "sans poche", 
+        "prix": 26, 
+        "taille": "S", 
+        "note": 3, 
+        "quantite": 10 
+    },
+    {
+        "id": 6, 
+        "name":"Jean zippé", 
+        "image": "assets/jeanZippe.webp", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 3, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 7, 
+        "name": "manteau à Bouton", 
+        "image": "assets/manteauBouton.webp", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 3,  
+        "quantite": 10 
+    },
+            
+    {
+        "id": 8, 
+        "name": "manteau Col Mao", 
+        "image": "assets/manteauColMao.webp", 
+        "description": "sans poche", 
+        "prix": 28, 
+        "taille": "L", 
+        "note": 5,  
+        "quantite": 10 
+    },
+            
+    {
+        "id": 9, 
+        "name": "manteau Homme", 
+        "image": "assets/manteauH.webp", 
+        "description": "poche", 
+        "prix": 30, 
+        "taille": "S", 
+        "note": 3, 
+        "quantite": 10 
+    },
+            
+    {
+        "id": 10, 
+        "name": "manteau Revers", 
+        "image": "assets/manteauRevers.webp", 
+        "description": "sans poche", 
+        "prix": 25, 
+        "taille": "XL", 
+        "note": 4, 
+        "quantite": 10 
+    },
+            
+    {
+        "id": 11, 
+        "name": "manteau Universitaire", 
+        "image": "assets/ManteauUniv.webp", 
+        "description": "sans poche", 
+        "prix": 26, 
+        "taille": "S", 
+        "note": 5, 
+        "quantite": 10 
+    },
+            
+    {
+        "id": 12, 
+        "name": "veste Zippée", 
+        "image": "assets/vesteZippe.webp", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 5, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 19, 
+        "name": "polo à motif", 
+        "image": "assets/poloAmotif.webp", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 3, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 20, 
+        "name": "polo avec col", 
+        "image": "assets/poloAvecCol.webp", 
+        "description": "sans poche", 
+        "prix": 28, 
+        "taille": "L", 
+        "note": 5, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 21, 
+        "name": "polo coloré", 
+        "image": "assets/poloColoré.webp", 
+        "description": "poche", 
+        "prix": 30, 
+        "taille": "S", 
+        "note": 3, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 22, 
+        "name": "polo Imprimé", 
+        "image": "assets/poloImprimé.webp", 
+        "description": "sans poche", 
+        "prix": 25, 
+        "taille": "XL", 
+        "note": 4, 
+        "quantite": 10 
+    },
+
+    {
+        "id": 23, 
+        "name": "polo Rayé", 
+        "image": "assets/poloRayé.webp", 
+        "description": "sans poche", 
+        "prix": 26, 
+        "taille": "S", 
+        "note": 5, 
+        "quantite": 10 
+    },
+    
+    {
+        "id": 24, 
+        "name": "polo avec Rayure", 
+        "image": "assets/poloRayure.webp", 
+        "description": "poche", 
+        "prix": 27, 
+        "taille": "M", 
+        "note": 4.5, 
+        "quantite": 10 
+    }
+
+
+]

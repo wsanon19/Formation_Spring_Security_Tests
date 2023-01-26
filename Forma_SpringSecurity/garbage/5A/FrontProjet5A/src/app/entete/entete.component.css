@@ -1,0 +1,33 @@
+#color {
+    color: azure;
+}
+
+.un {
+    display:flex;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+.rechercher {
+    margin-top: 1.3em;
+}
+
+.un>*{
+    flex: 1;
+}
+
+#bienvenue {
+    font-style: italic;
+    font-size: larger;
+    margin: 1%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+}

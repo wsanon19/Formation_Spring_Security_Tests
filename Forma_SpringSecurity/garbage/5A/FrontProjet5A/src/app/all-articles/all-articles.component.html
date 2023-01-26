@@ -1,0 +1,129 @@
+<div class="parent" *ngIf="entete">
+    <div class="item1" *ngFor="let article of entete.filteredArticles" >
+      <img src={{article.image}} class="photo-example" height="600px" width="500px">
+    </div>
+    <div class="item2">
+      <div class ="nameAndPrice"> 
+        <div id="sidebar" style="font-weight:bold">{{article.name}}</div>
+        <div id="sidebar" style="font-weight:bold">{{article.prix}}</div>
+      </div>
+      <div id="sidebar">
+        <p style="font-weight:bold">Description de l'article</p>
+        {{article.description}}
+      </div>
+      <div>
+        <div id="sidebar" style="font-weight:bold">Quantité en stock</div>
+        <div id="sidebar">{{article.quantite}}</div>
+      </div>
+      <div id="sidebar">Taille(FR)
+        <div> 
+          <mat-button-toggle name="favoriteColor" aria-label="Favorite Color" value="Taille">
+            {{article.taille}}
+          </mat-button-toggle>
+        </div>
+      </div>
+      <div class="mesure">
+        <div>
+          <mat-icon>straighten</mat-icon>
+        </div>
+        <div>Guide des tailles</div>
+      </div>
+      <div class="add">
+        <button mat-mini-fab>
+          <mat-icon>add</mat-icon>
+        </button>
+        <div style="font-weight:bold">Ajouter au panier</div>
+      </div>
+    </div>
+  </div>
+
+  <h1 style="font-weight:bold"> Commentaire des Clients</h1>
+  <div class="layout">
+    <div class="note">Note moyenne
+      <app-start-rating [note]="article.note"></app-start-rating>
+    </div>
+    <div class="avis">Est ce que cet article vous va bien?
+      <div class="rapport">
+        <div id="text">Petit</div>
+        <div>
+          <mat-slider aria-label="unit(s)"></mat-slider>
+        </div>
+      </div>
+      <div class="rapport">
+        <div id="text"> Ca me va </div>
+        <div>
+          <mat-slider aria-label="unit(s)"></mat-slider>
+        </div>
+      </div>
+      <div class="rapport">
+        <div id="text"> Grand</div>
+        <div>
+          <mat-slider aria-label="unit(s)"></mat-slider>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="responsive-example">
+    <div class="responsive-item">
+      <p>Heloïse</p>
+      <p>J'adore la couleur du Jean!</p>
+      <div>
+        <mat-icon>thumb_up</mat-icon>
+      </div>
+    </div>
+    <div class="responsive-item">
+      <p>Raymond</p>
+      <p>Il me va super bien je recommande vivement!</p>
+      <div>
+        <mat-icon>thumb_up</mat-icon>
+      </div>
+    </div>
+    <div class="responsive-item">
+      <p>
+        Romain
+      </p>
+      <p>les poches sont profondes comme j'aime</p>
+      <div>
+        <mat-icon>thumb_up</mat-icon>
+      </div>
+    </div>
+    <div class="responsive-item">
+      <p>David</p>
+      <p>Je n'ai pas aimé du tout. J'ai commandé du S mais il est trop grand</p>
+      <div>
+        <mat-icon>thumb_down</mat-icon>
+      </div>
+    </div>
+    <div class="responsive-item">
+      <p>Luc</p>
+      <p>Super beau avec une basket blanche</p>
+      <div>
+        <mat-icon>thumb_up</mat-icon>
+      </div>
+    </div>
+  </div>
+
+  <div class="art-banner" id="art-banner">
+   <!--  <div class="end">
+      <div class="info">
+        <p> Information sur l'entreprise</p>
+      </div>
+      <div class="info">
+        <p> Aide </p>
+      </div>
+      <div class="info">
+        contact
+      </div>
+      <div class="info">
+        Trouvez-nous sur
+      </div>
+    </div> -->
+    <div class="banner-text">Hello there.</div>
+    <div class="badge">
+      <p>Suivez nous!
+      </p>
+    </div>
+  </div>
+
+

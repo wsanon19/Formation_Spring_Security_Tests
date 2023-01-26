@@ -1,0 +1,11 @@
+Only build Linux Native app 
+- ./mvnw package -Pnative -Dquarkus.native.container-build=true  *
+- Find de -runner in target
+- Run ./target/*-runner (if on Linux OS)
+
+Build the container image   : 
+- Dockerfile native already written in src main docker
+- Build maven : Make step * before, to build the native app
+- Build Docker : docker build -f src/main/docker/Dockerfile.native -t quarkus-quickstart/getting-started .
+
+Run image : docker run -i --rm -p 8080:8080 quarkus-quickstart/getting-started

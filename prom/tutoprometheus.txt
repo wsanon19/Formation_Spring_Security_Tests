@@ -1,0 +1,6 @@
+https://www.tutorialworks.com/spring-boot-prometheus-micrometer/
+
+docker run -p 9090:9090 -v /C/Users/sanon/OneDrive/Documents/Université/S9/Formation/prom/prometheus.yml:/etc/prometheus/prometheus.yml  prom/prometheus
+
+
+docker build -t name .

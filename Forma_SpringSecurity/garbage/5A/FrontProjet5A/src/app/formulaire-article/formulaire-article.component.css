@@ -1,0 +1,21 @@
+
+mat-card {
+    max-width: 600px;
+    margin: 8em auto;
+    text-align: center;
+    background-color: gray;
+}
+
+mat-form-field, mat-radio-group {
+    display: block;
+}
+
+mat-radio-group {
+    display:flex;
+    text-align: center;
+    margin: 5px auto 30px auto;
+}
+
+.example-spacer {
+    flex: 1;
+  }

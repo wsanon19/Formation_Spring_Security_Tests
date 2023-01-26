@@ -1,0 +1,20 @@
+<section class = "trois">
+    <div *ngIf="listeManteau && listeManteau.length>0" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="5%" fxLayoutAlign="center">
+        <mat-card class="example-card" *ngFor="let acategorie of listeManteau" >
+            <img mat-card-image src="{{acategorie.image}}" alt="" height="220px" width="300px">
+            <mat-card-content>
+                <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+                    <p id="item">
+                        {{acategorie.name}}
+                        {{acategorie.prix}}€
+                    </p>
+                    <button mat-mini-fab>
+                        <mat-icon [routerLink]="['/manteau', acategorie.id_article]" >keyboard_arrow_right</mat-icon>
+                    </button>
+                </div>
+                <app-start-rating [note]="acategorie.note"></app-start-rating>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</section>
+
